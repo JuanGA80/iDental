@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="images/icono.ico" />
+  <title>IDentalmx</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7P9NLQ9XN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C7P9NLQ9XN');
+  </script>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1397681034366994');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1397681034366994&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+  <style>
+    .swiper {
+      width: 300px;
+      height: auto;
+      padding: 0px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: auto;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+    @media (min-width:768px) {
+      .swiper {
+        width: 600px;
+        height: 400;
+        padding: 0px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 600px;
+        height: 400;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <p>Agenda tu cita </p>
+      <p>Tel: 5573891519</p>
+    </div>
+    <nav class="navbar" id="nav">
+      <div class="container-logo"><img src="images/logo-2.png" alt=""></div>
+      <div class="container-menu">
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="implantes.html">Implantes Dentales</a></li>
+          <li><a href="index.html#especialidades">Especialidades</a></li>
+          <li><a href="promociones.html">Promociones</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank"
+              class="btn-contacto-header">Contacto</a></li>
+
+        </ul>
+      </div>
+
+      <button id="button-menu" class="button-menu ">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </nav>
+  </header>
+  <div class="section-nosotros">
+    <h2>Conócenos</h2>
+    <div class="container-nosotros">
+      <div class="item-nosotros">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/nosotros-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/nosotros-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/nosotros-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/nosotros-4.jpg" />
+            </div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="item-nosotros">
+        <img class="img-item" src="images/logo.webp" alt="">
+        <h2>Conócenos</h2>
+        <p>Somos una clínica especializada en el tratamiento de implantes dentales, comprometidos en devolver una
+          adecuada funcion y
+          estetica dental a cada uno de nuestros pacientes, realizado mediante un diagnostico y plan de tratamiento
+          personalizado.
+          Ademas contamos con un grupo de especialistas en diversas areas odontologicas para prevenir y resolver los
+          distintos problemas bucales.</p>
+      </div>
+    </div>
+  </div>
+  <div class="about-section">
+    <div class="item-about-section">
+      <div class="container-text-slider">
+        <div class="item-text-slider active" id="item-1">
+          <p>Somos una entidad mexicana con 25 años de experiencia en la prestación de servicios ondontológicos.
+            Contamos con nuestra cede en la CDMX, dotados con equipos y capacidad humana para brindar el mejor servicio.
+          </p>
+        </div>
+        <div class="item-text-slider" id="item-2">
+          <p>Nuestras instalaciones cuentan con la última tecnología,
+            para tu mayor comodidad, en IDentalmx nos tomamos enserio tu consulta.</p>
+        </div>
+        <div class="item-text-slider" id="item-3">
+          <p>¡Mejoramos constantemente para brindarles la mejor experiencia! Somos un equipo
+            profesional con amplia experiencia, ven y permítenos alcanzar juntos la perfección de tu sonrisa.</p>
+        </div>
+        <div class="controls-text">
+          <button class="btn-text" id="btn-1">1</button>
+          <button class="btn-text" id="btn-2">2</button>
+          <button class="btn-text" id="btn-3">3</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="section-eleccion">
+    <div class="title-eleccion">
+      <h2>¿Por qué confiar en nosotros?</h2>
+    </div>
+    <div class="container-eleccion">
+      <div class="item-eleccion">
+        <p>EXPERIENCIA LABORAL: Contamos con una amplia experiencia laboral de 25 años. ¡Desde 1997 perfeccionado
+          sonrisas!</p>
+      </div>
+      <div class="item-eleccion">
+        <p>FORMACIÓN LABORAL: Contamos con 3 especialistas y 2 odontológos generales.
+          Nos mantenemos en constante actualización para poder brindar tratamientos innovadores
+          y de la más alta calidad tecnológica.</p>
+      </div>
+      <div class="item-eleccion">
+        <p>LOS PACIENTES SON NUESTRA PRIORIDAD: Lo más importante es el bienestar de nuestro
+          paciente y lograr cumplir con sus espectativas y necesidades individuales, desde la salud, seguridad y
+          autoestima.</p>
+      </div>
+      <div class="item-eleccion">
+        <p>ATENCIÓN INTEGRAL: Nuestro equipo humano y multidisciplinario, compuesto por especialistas
+          en distintas áreas, se encargarán de evaluar y proponer la mejor alternativa de tratamiento personalizado.</p>
+      </div>
+      <div class="item-eleccion">
+        <p>EQUIPOS Y MATERIALES DE ÚLTIMA TECNOLOGÍA: Nuestos equipos de última tecnología y
+          materiales biocompatibles de última generación, nos permiten ofrecer tratamientos efectivos y estables a largo
+          plazo.</p>
+      </div>
+      <div class="item-eleccion">
+        <p>PROTOCOLOS DE BIOSEGURIDAD: Contamos con protocolos de bioseguridad y procesos de esterilización y
+          desinfección,
+          que nos permiten ofrecer a nuestros pacientes un entorno seguro y comfortable.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="section-pruebas">
+    <div class="title-eleccion">
+      <h2>Casos de éxito</h2>
+    </div>
+    <div class="container-casos">
+      <div class="item-casos">
+        <img src="images/antes-1.jpg" alt="">
+      </div>
+      <div class="item-casos">
+        <img src="images/despues-1.JPG" alt="">
+      </div>
+      <div class="item-casos">
+        <img src="images/antes-3.png" alt="">
+      </div>
+      <div class="item-casos">
+        <img src="images/despues-3.JPG" alt="">
+      </div>
+
+      <div class="item-casos">
+        <img src="images/antes-2.JPG" alt="">
+      </div>
+      <div class="item-casos">
+        <img src="images/despues-2.JPG" alt="">
+      </div>
+      <div class="item-casos">
+        <img src="images/case-1.JPG" alt="">
+      </div>
+      <div class="item-casos">
+        <img src="images/case-2.JPG" alt="">
+      </div>
+
+
+    </div>
+  </div>
+  <div class="menu-content">
+    <span class="menu-item" id="flotante">
+      <img src="images/agregar.png" alt="">
+    </span>
+    <a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank" class="menu-item">
+      <img src="images/whatsapp.png" alt="">
+    </a>
+    <a href="tel:5573891519" class="menu-item" target="_blank">
+      <img src="images/phone.png" alt="">
+    </a>
+
+  </div>
+
+  <footer>
+    <div class="item-footer" id="ubicacion">
+      <div class="sub-item-footer">
+        <p>Horarios: Lunes a Viernes: 10am a 7pm </p>
+        <p>Sabados: 10am a 3pm</p>
+        <h6>Dirección: Eje 8 sur Jose Maria Rico #121</h6>
+        <h6>interior 107 Col. Actipan, Benito Juarez , Cdmx.</h6>
+
+      </div>
+      <div class="sub-item-footer">
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.013360956487!2d-99.18099102554822!3d19.368574142724007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff65baa61457%3A0x2a3ec952bd3cc2ba!2sJos%C3%A9%20Mar%C3%ADa%20Rico%20121%2C%20Actipan%2C%20Benito%20Ju%C3%A1rez%2C%2003230%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1681510760632!5m2!1ses-419!2smx"
+            width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+    <div class="item-footer">
+      <div class="items-date">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="implantes.html">Implantes Dentales</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="items-date">
+        <div class="redes-footer">
+          <a href="https://www.facebook.com/Implantes.Especialidades.Dentales.MX" target="_blank"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="mailto:implantesyespecialidadesmx@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank"><i
+              class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="item-footer">
+      <div class="items-date">
+        <p>Correo: implantesyespecialidadesmx@gmail.com </p>
+        <p>© 2023 Todos los derechos reservados IDentalmx y especialidades dentales Mx.</p>
+        <p>Desarrollado por <a href="https://dentarios.com.mx/" target="_blank">Agencia de Marketing Dentarios </a> ©
+          2023</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/menu.js"></script>
+  <script src="js/text.js"></script>
+  <script src="js/flotantes.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "flip",
+      grabCursor: true,
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>

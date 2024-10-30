@@ -1,0 +1,38 @@
+.grid-promos-implantes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.promo-special-implantes {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-promos-implantes .promo-implante {
+  width: 100%;
+}
+
+.grid-promos-implantes a img {
+  width: 100%;
+}
+
+@media (min-width:768px) {
+
+  .grid-promos-implantes {
+    grid-template-columns: repeat(2, 40%);
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+  }
+
+  .grid-promos-implantes a:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+
+}

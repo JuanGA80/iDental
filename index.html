@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDentalmx</title>
+  <link rel="icon" type="image/jpg" href="images/icono.ico" />
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7P9NLQ9XN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C7P9NLQ9XN');
+  </script>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1397681034366994');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1397681034366994&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <p>Agenda tu cita </p>
+      <p>Tel: 5573891519</p>
+    </div>
+    <nav class="navbar" id="nav">
+      <div class="container-logo"><img src="images/logo-2.png" alt=""></div>
+      <div class="container-menu">
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="implantes.html">Implantes Dentales</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="promociones.html">Promociones</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank"
+              class="btn-contacto-header">Contacto</a></li>
+        </ul>
+      </div>
+      <button id="button-menu" class="button-menu ">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <div class="hero-home" id="1" data-id="sliderIndex">
+      <div class="slider-home" id="inicio">
+        <div class="mySlider"><!--<div class="mySlider fade">-->
+          <img src="images/Promociones/promo-3.webp" alt="Promoción" class="slider-movil" />
+          <img src="images/Promociones/promo-banner-p.webp" alt="Promoción" class="slider-descktop" />
+        </div>
+        <!--<div class="mySlider fade">
+            <img src="images/promo-movil-3.jpg" alt="" class="slider-movil" />
+            <img src="images/promo-compu-3.jpg" alt="" class="slider-descktop" />
+          </div>
+          <div class="mySlider fade">
+            <img src="images/promo-movil-6.jpg" alt="" class="slider-movil" />
+            <img src="images/promo-compu-6.jpg" alt="" class="slider-descktop" />
+          </div>
+          <div class="mySlider fade">
+            <img src="images/promo-movil-7.jpg" alt="" class="slider-movil" />
+            <img src="images/promo-compu-7.jpg" alt="" class="slider-descktop" />
+          </div>-->
+
+
+      </div>
+
+    </div>
+    <div class="section-nosotros">
+      <h2>Conócenos</h2>
+      <div class="container-nosotros">
+        <div class="item-nosotros">
+          <img src="images/somos.jpeg" alt="">
+        </div>
+        <div class="item-nosotros">
+          <img class="img-item" src="images/logo.webp" alt="">
+          <h2>Conócenos</h2>
+          <p>Somos una clínica especializada en el tratamiento de implantes dentales, comprometidos en devolver una
+            adecuada funcion y
+            estetica dental a cada uno de nuestros pacientes, realizado mediante un diagnostico y plan de tratamiento
+            personalizado.
+            Ademas contamos con un grupo de especialistas en diversas areas odontologicas para prevenir y resolver los
+            distintos problemas bucales.</p>
+        </div>
+      </div>
+    </div>
+    <section class="especialidades" id="especialidades">
+      <div class="title-especialidades">
+        <h2>Especialidades</h2>
+      </div>
+
+      <div class="container-especialidades">
+        <div class="item-especialidades">
+          <img src="images/implantologia.webp" alt="">
+          <h2 class="title-especialidad">Implantología</h2>
+          <button class="btn-mas" id="1">Saber más</button>
+        </div>
+        <div class="item-especialidades">
+          <img src="images/ortodoncia.webp" alt="">
+          <h2 class="title-especialidad">Ortodoncia</h2>
+          <button class="btn-mas" id="2">Saber más</button>
+        </div>
+        <div class="item-especialidades">
+          <img src="images/periodoncia.webp" alt="">
+          <h2 class="title-especialidad">Periodoncia</h2>
+          <button class="btn-mas" id="3">Saber más</button>
+        </div>
+        <div class="item-especialidades">
+          <img src="images/endodoncia.webp" alt="">
+          <h2 class="title-especialidad">Endodoncia</h2>
+          <button class="btn-mas" id="4">Saber más</button>
+        </div>
+        <div class="item-especialidades">
+          <img src="images/protesis.webp" alt="">
+          <h2 class="title-especialidad">Prótesis Bucal</h2>
+          <button class="btn-mas" id="5">Saber más</button>
+        </div>
+        <div class="item-especialidades">
+          <img src="images/cirugia-oral.webp" alt="">
+          <h2 class="title-especialidad">Cirugía Oral</h2>
+          <button class="btn-mas" id="6">Saber más</button>
+        </div>
+
+      </div>
+      <div class="modalServices" id="modalServices">
+        <img src="images/cerca.png" alt="" id="close">
+        <div class="container-modal-services" id="containerServices">
+
+        </div>
+
+      </div>
+    </section>
+    <div class="tratamientos">
+      <div class="title-especialidades">
+        <h2 class="trata">Tratamientos</h2>
+      </div>
+      <div class="container-tratamientos">
+        <div class="item-tratamientos">
+          <img src="images/limpieza-dental.png" alt="">
+          <h2>Limpieza dental</h2>
+        </div>
+        <div class="item-tratamientos">
+          <img src="images/resinas.png" alt="">
+          <h2>Resinas</h2>
+        </div>
+        <div class="item-tratamientos">
+          <img src="images/cirugia-implantes.png" alt="">
+          <h2>Implantes dentales</h2>
+        </div>
+        <div class="item-tratamientos">
+          <img src="images/coronas_dentales.png" alt="">
+          <h2>Coronas esteticas</h2>
+        </div>
+        <div class="item-tratamientos">
+          <img src="images/protes.png" alt="">
+          <h2>Prótesis</h2>
+        </div>
+        <div class="item-tratamientos">
+          <img src="images/extracciones.png" alt="">
+          <h2>Extracciones </h2>
+        </div>
+        <div class="item-tratamientos">
+          <img src="images/endo.png" alt="">
+          <h2>Endodoncias </h2>
+        </div>
+        <div class="item-tratamientos">
+          <img src="images/cirugia.png" alt="">
+          <h2>Cirugías </h2>
+        </div>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank">
+        <img src="images/whatsapp.png" alt="" class="img-tratamientos">
+        <p>Preguntar por más tratamientos</p>
+      </a>
+    </div>
+    <div class="tratamientos">
+      <div class="title-especialidades">
+        <h2 class="trata">Testimonios</h2>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-1.png" alt="">
+              <div>
+                <p>Excelente servicio y resultados. Te explican todo con claridad y el precio corresponde a los
+                  resultados obtenidos. Estoy muy contenta con el servicio en general.</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Sofía López R.</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-2.png" alt="">
+              <div>
+                <p>Excelente atención</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Perla Olguin</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona.png" alt="">
+              <div>
+                <p>
+                  Excelente servicio, rápido limpio y sin dolor.🦷 y sobre todo precio justo</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Alejandra Gómez</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-4.png" alt="">
+              <div>
+                <p>
+                  La atención fue rápida y oportuna el doctor me explicó claramente los tratamientos y mis opciones,
+                  hizo un excelente trabajo</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Danny Ontiveros</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <div class="preguntas-frecuentes" id="preguntas">
+      <div class="title-question">
+        <h2>Preguntas frecuentes</h2>
+      </div>
+      <p class="subtitle">¡Dale click a la imagen y ve tu respuesta!</p>
+      <div class="container-frecuentes" id="container-question">
+        <div class="container-atras" id="answer">
+          <img src="images/cancelar.png" alt="" id="cancelar">
+          <div class="item-atras" id="textoInfo">
+
+          </div>
+
+        </div>
+        <div class="item-frecuentes" id="A">
+          <div class="item-frente">
+            <img src="images/id-1.jpg" alt="">
+            <div class="item-question">
+              <h5>¿Cada cuando se debe ir al dentista?</h5>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="item-frecuentes" id="B">
+          <div class="item-frente">
+            <img src="images/id-2.jpg" alt="">
+            <div class="item-question">
+              <h5>¿Cuál es el mejor tratamiento de ortodoncia? </h5>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="item-frecuentes" id="C">
+          <div class="item-frente">
+            <img src="images/id-7.jpg" alt="">
+            <div class="item-question">
+              <h5>¿Existe alguna limitación de edad en los tratamientos con ortodoncia?</h5>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="item-frecuentes" id="D">
+          <div class="item-frente">
+            <img src="images/id-3.jpg" alt="">
+            <div class="item-question">
+              <h5>¿Si soy diabético puedo ponerme un implante?</h5>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="item-frecuentes" id="E">
+          <div class="item-frente">
+            <img src="images/id-4.jpg" alt="">
+            <div class="item-question">
+              <h5>¿Si estoy embarazada, ¿puedo realizarme algún tratamiento dental?</h5>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="item-frecuentes" id="F">
+          <div class="item-frente">
+            <img src="images/id-5.jpg" alt="">
+            <div class="item-question">
+              <h5>¿Por qué tengo mal aliento? ¿Tiene tratamiento?</h5>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="item-frecuentes" id="G">
+          <div class="item-frente">
+            <img src="images/id-6.jpg" alt="">
+            <div class="item-question">
+              <h5>Si tengo un dolor dental y desaparece al poco tiempo, ¿debería acudir al dentista?</h5>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="item-frecuentes" id="H">
+
+          <div class="item-frente">
+            <img src="images/id-8.jpg" alt="">
+            <div class="item-question">
+              <h5>¿Se puede evitar el miedo al dentista? </h5>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="menu-content">
+      <span class="menu-item" id="flotante">
+        <img src="images/agregar.png" alt="">
+      </span>
+      <a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank" class="menu-item">
+        <img src="images/whatsapp.png" alt="">
+      </a>
+      <a href="tel:5573891519" class="menu-item" target="_blank">
+        <img src="images/phone.png" alt="">
+      </a>
+
+    </div>
+    <div class="contact-form" id="formulario">
+      <div class="container-form">
+        <div class="item-contact-form">
+          <h2>Contáctanos</h2>
+          <h3>¿Te llámamos?</h3>
+          <p class="title-p">Deja tus datos de contacto y uno de
+            nuestros expertos se comunicará contigo.</p>
+          <form id="form" method="post">
+            <div class="input-container">
+              <p>Hola! mi nombre es:</p>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="input-container">
+              <p>Estoy interesado en:</p>
+              <select name="tratamiento" id="eleccion" required>
+
+                <option value="">Elige tu tratamiento</option>
+                <option>Endodoncia</option>
+                <option>Ortodoncia</option>
+                <option>Periodoncia</option>
+                <option>Ortopedia</option>
+                <option>Protesís bucal</option>
+                <option>Implantes</option>
+                <option>Cirugía </option>
+                <option>Cirugía Maxilofacial</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="input-container">
+              <p>Mi teléfono o celular es:</p>
+              <input type="text" id="telefono" name="telefono" required>
+            </div>
+            <div class="input-container">
+              <p> Mi correo es:</p>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+              <input type="submit" id="button" value="Enviar ">
+            </div>
+
+
+            <p class="warnings" id="warnings"></p>
+          </form>
+
+          <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+          <script type="text/javascript">
+            emailjs.init('RGS5NrstxG7vf6h22')
+          </script>
+          <a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank" class="btn-form">
+            <img src="images/whatsapp.png" alt="">
+            <p>Mándanos un whatsapp</p>
+          </a>
+        </div>
+        <div class="item-contact-form">
+          <img class="img-contact" src="images/girl-dentarios.png" alt="">
+          <a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank" class="btn-form2">
+            <img src="images/whatsapp.png" alt="">
+            <p>Mándanos un whatsapp</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="item-footer" id="ubicacion">
+      <div class="sub-item-footer">
+        <p>Horarios: Lunes a Viernes: 10am a 7pm </p>
+        <p>Sabados: 10am a 3pm</p>
+        <h6>Dirección: Eje 8 sur Jose Maria Rico #121</h6>
+        <h6>interior 107 Col. Actipan, Benito Juarez , Cdmx.</h6>
+
+      </div>
+      <div class="sub-item-footer">
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.013360956487!2d-99.18099102554822!3d19.368574142724007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff65baa61457%3A0x2a3ec952bd3cc2ba!2sJos%C3%A9%20Mar%C3%ADa%20Rico%20121%2C%20Actipan%2C%20Benito%20Ju%C3%A1rez%2C%2003230%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1681510760632!5m2!1ses-419!2smx"
+            width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+    <div class="item-footer">
+      <div class="items-date">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="implantes.html">Implantes Dentales</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="items-date">
+        <div class="redes-footer">
+          <a href="https://www.facebook.com/Implantes.Especialidades.Dentales.MX" target="_blank"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="mailto:implantesyespecialidadesmx@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank"><i
+              class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="item-footer">
+      <div class="items-date">
+        <p>Correo:implantesyespecialidadesmx@gmail.com</p>
+        <p>© 2023 Todos los derechos reservados IDentalmx y especialidades dentales Mx.</p>
+        <p>Desarrollado por <a href="https://dentarios.com.mx/" target="_blank">Agencia de Marketing Dentarios </a> ©
+          2023</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/menu.js"></script>
+  <script src="js/sliderHome.js"></script>
+  <script src="js/modales.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/flotantes.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/swipers.js"></script>
+  <script>
+    const btn = document.getElementById('button');
+
+    document.getElementById('form')
+      .addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        btn.value = 'Enviando...';
+
+        const serviceID = 'default_service';
+        const templateID = 'template_arjnrac';
+
+        emailjs.sendForm(serviceID, templateID, this)
+          .then(() => {
+            btn.value = 'Enviar';
+            alert('Datos enviados exitosamente');
+          }, (err) => {
+            btn.value = 'Enviar';
+            alert(JSON.stringify(err));
+          });
+      });
+  </script>
+</body>
+
+</html>
